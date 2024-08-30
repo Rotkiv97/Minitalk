@@ -85,7 +85,7 @@ int	main(int argc, char **argv)
 	}
 	else
 	{
-		ft_printf("\033[91mErrore: maledetto il format non va bene \033[0m\n");
+		ft_printf("\033[91mErrore: il programma acetta solo 3 argomenti\033[0m\n");
 		return (1);
 	}
 	return (0);
